@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday, Brother!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id="birthday-card">
+        <header>
+            <h1>🎉 Happy Birthday, Keyansh! 🎂</h1>
+            <p class="message">Wishing you a day filled with joy, laughter, and love!</p>
+            <img src="keyansh.jpeg" width="200" height="250">
+        </header>
+
+        <section id="birthday-countdown">
+            <h2>🎈 Countdown to Your Birthday 🎉</h2>
+            <div id="countdown"></div>
+        </section>
+
+        <div id="button-container" class="hidden">
+            <!-- Buttons for different animations -->
+            <button onclick="triggerAnimation(1)">Animation 1</button>
+            <button onclick="triggerAnimation(2)">Animation 2</button>
+            <button onclick="triggerAnimation(3)">Animation 3</button>
+            <button onclick="triggerAnimation(4)">Animation 4</button>
+            <button onclick="triggerAnimation(5)">Animation 5</button>
+            <button onclick="triggerAnimation(6)">Animation 6</button>
+            <button onclick="triggerAnimation(7)">Animation 7</button>
+            <button onclick="triggerAnimation(8)">Animation 8</button>
+            <button onclick="triggerAnimation(9)">Animation 9</button>
+            <button onclick="triggerAnimation(10)">Animation 10</button>
+        </div>
+
+        <section id="birthday-photo-gallery">
+            <h2>Some Happy Memories 🎉</h2>
+            <div class="gallery">
+                <img src="photo1.jpg" alt="photo1" class="hidden" id="photo1">
+                <img src="photo2.jpg" alt="photo2" class="hidden" id="photo2">
+                <img src="photo3.jpg" alt="photo3" class="hidden" id="photo3">
+            </div>
+        </section>
+
+        <section id="fireworks"></section>
+    </div>
+
+    <!-- Background Music -->
+    <audio id="birthday-music" autoplay loop>
+        <source src="happy_birthday_song.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
