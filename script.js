@@ -1,5 +1,5 @@
 // Countdown Timer
-const birthday = new Date("December 4, 2024 22:45:00").getTime(); // Set your brother's birthday date
+const birthday = new Date("December 4, 2024 22:55:00").getTime(); // Set your brother's birthday date
 const countdownElement = document.getElementById("countdown");
 
 function updateCountdown() {
